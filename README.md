@@ -22,6 +22,7 @@ npm test
 Odpali testy JEST w terminalu
 
 ## Przykłady z repozytorium
+_( W przykładach wykorzystano komponenty [Material UI](http://localhost:3000/) )_
 
 ```javascript
 var oldUnload = window.onbeforeunload; //komentarz
