@@ -22,8 +22,8 @@ const CurrencySelector = ({ currencyLabels, selectCurrency }) => {
             }}
         >
             {
-                currencyLabels.map(currency => (
-                    <option value={currency}>{currency}</option>
+                currencyLabels.map((currency, key) => (
+                    <option value={currency} key={key}>{currency}</option>
                 ))
             }
         </Select>
@@ -31,7 +31,7 @@ const CurrencySelector = ({ currencyLabels, selectCurrency }) => {
 )};
 
 CurrencySelector.propTypes = {
-    labels: PropTypes.arrayOf(PropTypes.string).isRequired,
+    currencyLabels: PropTypes.arrayOf(PropTypes.string).isRequired,
     handleChange: PropTypes.func
 };
 
