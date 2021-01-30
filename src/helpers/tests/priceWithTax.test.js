@@ -1,4 +1,3 @@
-import React from "react";
 import priceWithTax from "../priceWithTax"
 import prices from "../../mockData/prices";
 
