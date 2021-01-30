@@ -70,7 +70,7 @@ W repozytorium mamy zawarte dwa przykładowe testy sprawdzające metody wyliczaj
 
 Zwróć uwagę na ich kod
 
-####plik: calculateSpecial.test.js
+**plik: calculateSpecial.test.js**
 ```javascript
 import calculateSpecialPrice from "../calculateSpecialPrice"
 
@@ -114,7 +114,7 @@ nie zostanie wyprowadzona z domyślnym przecinkiem
 
 Pełna lista metod porównawczych dostępna jest w dokumentacji [JEST](https://jestjs.io/docs/en/expect.html)
 
-####plik: calculateSpecial.test.js
+**plik: priceWithTax.test.js**
 ```javascript
 import priceWithTax from "../priceWithTax"
 import prices from "../../mockData/prices";
